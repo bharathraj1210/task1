@@ -1,0 +1,48 @@
+HTTP/1.1 loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it. In contrast, HTTP/2 is able to use a single TCP connection to send multiple streams of data at once so that no one resource blocks any other resource.
+
+
+
+In JavaScript, an object is a standalone entity, with properties and type. Compare it with a cup, for example. A cup is an object, with properties. A cup has a color, a design, weight, a material it is made of, etc. The same way, JavaScript objects can have properties, which define their characteristics.
+
+Creating Objects in JavaScript:
+By object literal
+By creating instance of Object directly (using new keyword)
+By object literal:
+The syntax of creating object using object literal is given below:
+
+
+Property and value is separated by colon(:).
+
+Example:
+
+
+
+
+When we want to communicate between devices we need unique address to identify devices in a network.
+
+In different situation we may need different types of addresses, there are several reasons for that.
+
+IPv4
+
+IPv4 is a 32 bit address represented in dotted decimal notationExample10.45.23.30172.16.10.100192.168.23.67each decimal number is separated by a dot hence its called dotted decimal notation
+
+IPv6
+
+IPv6 was introduced in 1998 as an alternate addressing scheme to IPv4. IPv6 is 128 bit address which is represented in colon hexadecimal notationExample2001:1893:0021:ae02:bef0:53c8:201b:0173here each block is separated by : hence colon hexadecimal notation.
+
+
+MAC address
+
+A MAC address is a hardware address assigned to network interface card by the manufacturer of the hardware & its a permanent addressif your computer has multiple network ports , it will have unique MAC address for each port. MAC address is represented in 12 digit hexadecimal number Example a0:14:6b:02:48:fd
+
+Port Numbers
+
+A Port address or port number is an unique number to identify transport layer service.
+
+there are 65536 ports available
+
+out of which up to port number 1023 are called as server ports or well Known port numbers
+
+1024 onwards it's called as client port numbers or unknown port numbers.
+
+These ports are not physical ports they are logical ports.
